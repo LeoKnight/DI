@@ -15,3 +15,6 @@ class demo1 {}
 
 [youtube](https://www.youtube.com/watch?v=QtDTfn8YxXg)
 [injection-js](https://github.com/mgechev/injection-js)
+[thoughtworkers](http://insights.thoughtworkers.org/injection/)
+[martinfowler](https://martinfowler.com/articles/injection.html#InversionOfControl)
+[stack](https://stackoverflow.com/questions/3058/what-is-inversion-of-control)
