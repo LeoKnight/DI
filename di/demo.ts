@@ -1,4 +1,4 @@
-import { bootstrap, Injectable, Component, construct, INJECTABLE_STORE, INSTANCE_STORE } from "../index";
+import { bootstrap, Injectable, Component, construct, INJECTABLE_STORE, INSTANCE_STORE } from "./src/index";
 
 abstract class Hero {
     abstract getCharactor(): string;
@@ -59,3 +59,5 @@ class Avenager {
 }
 
 var avenagers = construct(Avenager);
+
+console.log(avenagers)
