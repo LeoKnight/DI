@@ -1,0 +1,1 @@
+{"version":3,"file":"injectable.js","sourceRoot":"","sources":["injectable.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,gBAAgB,EAAE,MAAM,2BAA2B,CAAC;AAE7D,MAAM,UAAU,UAAU;IACtB,OAAO,UAAS,MAAM;QAClB,gBAAgB,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAC;QAClC,OAAO,MAAM,CAAC;IAClB,CAAC,CAAA;AACL,CAAC"}
