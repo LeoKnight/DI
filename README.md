@@ -12,7 +12,8 @@
 
 ## 背景介绍
 
-控制反转 (Inversion of control) 并不是一项新的技术，是[Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))提出的是设计模式。反转控制（下文统一简称为 IoC) 把传统模式中需要自己实例化抽象类的任务交给容器中，本来自己的类中需要主动执行变为被动，自己业务代码中不需要再考虑如何实例化其他依赖的抽象类，只需要依赖注入（Dependency Injection, 下文统一简称为 DI), 所以 IoC 和 DI 是互相依赖的设计模式。
+控制反转 (Inversion of control) 并不是一项新的技术，是[Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))提出的是设计模式。反转控制（下文统一简称为 IoC) 把传统模式中需要自己实例化抽象类的任务交给容器中，本来自己的类中需要主动执行变为被动，自己业务代码中不需要再考虑如何实例化其他依赖的抽象类，只需要依赖注入（Dependency Injection, 下文统一简称为 DI), 所以 IoC 和 DI 是互相依赖的设计模式。DI 是提升开发效率和提高模块化必不可少的设计模式。
+会从外部源中获取依赖，而不是自己创建它们。
 
 
 DI 无论是作为设计模式还是框架都可以帮助我们维持 (maintaining) 和组装 (assembling) 依赖
